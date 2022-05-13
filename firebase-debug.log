@@ -1,0 +1,117 @@
+[debug] [2022-05-12T11:57:25.892Z] ----------------------------------------------------------------------
+[debug] [2022-05-12T11:57:25.894Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\madhubala.r\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2022-05-12T11:57:25.894Z] CLI Version:   3.16.0
+[debug] [2022-05-12T11:57:25.894Z] Platform:      win32
+[debug] [2022-05-12T11:57:25.895Z] Node Version:  v16.14.1
+[debug] [2022-05-12T11:57:25.896Z] Time:          Thu May 12 2022 17:27:25 GMT+0530 (India Standard Time)
+[debug] [2022-05-12T11:57:25.896Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-12T11:57:25.905Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2022-05-12T11:57:25.905Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\shopping 1\ShoppingProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-12T11:58:40.818Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2022-05-12T11:58:40.818Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ {
+  refresh_token: '1//0gBPdqPqsM9HjCgYIARAAGBASNwF-L9IrR2bf8UemVxqnKFDpHFUlmQIMxvfNv9OJVMv2iNsEUhvkHAqx9NtXxGu1ua9dulF3zqc',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid'
+} 
+ Thu May 12 2022 17:28:40 GMT+0530 (India Standard Time)
+[debug] [2022-05-12T11:58:42.145Z] <<< HTTP RESPONSE 200
+[debug] [2022-05-12T11:58:42.240Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Thu May 12 2022 17:28:42 GMT+0530 (India Standard Time)
+[debug] [2022-05-12T11:58:43.876Z] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+[error] 
+[error] Error: Server Error. read ECONNRESET
+[debug] [2022-05-12T12:09:20.327Z] ----------------------------------------------------------------------
+[debug] [2022-05-12T12:09:20.329Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\madhubala.r\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2022-05-12T12:09:20.329Z] CLI Version:   3.16.0
+[debug] [2022-05-12T12:09:20.329Z] Platform:      win32
+[debug] [2022-05-12T12:09:20.329Z] Node Version:  v16.14.1
+[debug] [2022-05-12T12:09:20.331Z] Time:          Thu May 12 2022 17:39:20 GMT+0530 (India Standard Time)
+[debug] [2022-05-12T12:09:20.331Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-12T12:09:20.339Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2022-05-12T12:09:20.340Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\shopping 1\ShoppingProject
+
+[warn] !  You have have not selected any features. Continuing will simply associate this folder with a Firebase project. Press Ctrl + C if you want to start over.
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-12T12:09:29.838Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Thu May 12 2022 17:39:29 GMT+0530 (India Standard Time)
+[debug] [2022-05-12T12:09:30.541Z] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+[error] 
+[error] Error: Server Error. read ECONNRESET
+[debug] [2022-05-12T12:14:54.321Z] ----------------------------------------------------------------------
+[debug] [2022-05-12T12:14:54.323Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\madhubala.r\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2022-05-12T12:14:54.323Z] CLI Version:   3.16.0
+[debug] [2022-05-12T12:14:54.323Z] Platform:      win32
+[debug] [2022-05-12T12:14:54.323Z] Node Version:  v16.14.1
+[debug] [2022-05-12T12:14:54.324Z] Time:          Thu May 12 2022 17:44:54 GMT+0530 (India Standard Time)
+[debug] [2022-05-12T12:14:54.324Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-12T12:14:54.336Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2022-05-12T12:14:54.336Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\shopping 1\ShoppingProject
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-12T12:15:05.675Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+  
+ Thu May 12 2022 17:45:05 GMT+0530 (India Standard Time)
+[debug] [2022-05-12T12:15:09.442Z] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+[error] 
+[error] Error: Server Error. read ECONNRESET
